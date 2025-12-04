@@ -3,5 +3,6 @@
   <component name="DataSourcePerFileMappings">
     <file url="file://$PROJECT_DIR$/db/create_arquivo_sonoro_db.sql" value="65e0ddc5-6abf-4aea-ade7-853a6a0a41e5" />
     <file url="file://$PROJECT_DIR$/db/create_cartografia_db.sql" value="65e0ddc5-6abf-4aea-ade7-853a6a0a41e5" />
+    <file url="file://$PROJECT_DIR$/db/exercicios_cartografia.sql" value="65e0ddc5-6abf-4aea-ade7-853a6a0a41e5" />
   </component>
 </project>
