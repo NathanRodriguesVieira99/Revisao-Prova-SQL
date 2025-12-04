@@ -1,0 +1,15 @@
+services:
+    postgresql:
+       container_name: postgresql_revisao_prova
+       image: leogloriainfnet/revisao_prova_sql
+       environment:
+         POSTGRES_USER: postgres
+         POSTGRES_PASSWORD: postgres
+         POSTGRES_DB: db_revisao_prova_sql
+       ports:
+          - "5432:5432"
+       volumes:
+         - revisao_prova_sql:/var/lib/postgresql
+
+volumes:
+   revisao_prova_sql:
